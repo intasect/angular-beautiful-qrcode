@@ -1,31 +1,31 @@
 {
-  "name": "angular-qrcode",
-  "version": "6.2.1",
-  "description": "QR Code elements for AngularJS.",
+  "name": "angular-beautiful-qrcode",
+  "version": "0.0.1",
+  "description": "Beautiful QR Code elements for AngularJS.",
   "keywords": [
     "angular",
     "angularjs",
-    "qrcode"
+    "qrcode",
+    "beautiful"
   ],
-  "homepage": "http://monospaced.github.io/angular-qrcode/",
-  "main": "angular-qrcode.js",
-  "bugs": "http://github.com/monospaced/angular-qrcode/issues",
+  "homepage": "https://github.com/intasect/angular-beautiful-qrcode/",
+  "main": "angular-beautiful-qrcode.js",
+  "bugs": "https://github.com/intasect/angular-beautiful-qrcode/issues",
   "license" : "MIT",
   "repository" : {
     "type" : "git",
-    "url" : "http://github.com/monospaced/angular-qrcode"
+    "url" : "https://github.com/intasect/angular-beautiful-qrcode/"
   },
   "author": {
-    "name" : "Scott Boyle",
-    "email" : "scott@monospaced.com",
-    "url" : "http://scottboyle.co.uk/about"
+    "name" : "Zhihui Tian",
+    "email" : "tian.zhihui@intasect.co.jp",
+    "url" : "http://www.intasect.com"
   },
   "files": [
-    "angular-qrcode.js",
+    "angular-beautiful-qrcode.js",
     "package.json"
   ],
   "dependencies": {
-    "angular": ">=1.0.6",
-    "qrcode-generator": "git://github.com/monospaced/bower-qrcode-generator.git#v0.1.0"
+    "angular": ">=1.0.6"
   }
 }

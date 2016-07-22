@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-gb" data-ng-app="monospaced.qrcode" id="ng-app">
+<html lang="en-gb" data-ng-app="angular.beautiful-qrcode" id="ng-app">
 <head>
   <meta charset="utf-8">
   <title>Angular QR Code</title>
@@ -7,7 +7,6 @@
     <script>document.createElement('qrcode');</script>
   <![endif]-->
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="//necolas.github.io/normalize.css/2.1.1/normalize.css">
   <style>
     html {
       overflow-y: scroll;
@@ -158,9 +157,11 @@
 
   </div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
-  <script src="//monospaced.github.io/bower-qrcode-generator/js/qrcode.js"></script>
-  <script src="//monospaced.github.io/bower-qrcode-generator/js/qrcode_UTF8.js"></script>
-  <script src="angular-qrcode.js"></script>
+  <h2>Beautiful</h2>
+
+  <qrcode foreground-color="gray" background-color="black" version="{{v}}" error-correction-level="H" size="274" data="{{bar}}" href="{{bar}}"></qrcode>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+  <script src="angular-beautiful-qrcode.js"></script>
 </body>
 </html>
